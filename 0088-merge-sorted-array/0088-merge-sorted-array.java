@@ -6,6 +6,6 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
               nums1[r--] = nums1[p--];
             else
                nums1[r--] = nums2[q--];
-    }
+        }
     }
 }
