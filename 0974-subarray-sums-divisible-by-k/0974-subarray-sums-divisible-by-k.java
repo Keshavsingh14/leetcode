@@ -1,6 +1,6 @@
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
-        Map<Integer, Integer> counter = new HashMap<>();
+        HashMap<Integer, Integer> counter = new HashMap<>();
         counter.put(0, 1);
         int s = 0, ans = 0;
         for (int num : nums) {
